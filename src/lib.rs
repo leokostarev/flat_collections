@@ -1,5 +1,5 @@
 mod flat_map;
-mod frozen_flat_map;
+mod flat_set;
 
 pub use flat_map::FlatMap;
-pub use frozen_flat_map::FrozenFlatMap;
+pub use flat_set::FlatSet;

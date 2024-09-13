@@ -14,6 +14,4 @@ Insert and remove work in O(1) when dealing with last element.
 
 ### Types:
 - `FlatMap` - mutable map, backed by `Vec`
-- `FrozenFlatMap` - immutable map, backed by `Box<[T]>`
-- `FlatSet` - mutable set, backed by `FlatMap` (not yet implemented)
-- `FrozenFlatSet` - immutable set, backed by `FrozenFlatMap` (not yet implemented)
+- `FlatSet` - mutable set, backed by `FlatMap`
