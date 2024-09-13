@@ -1,4 +1,6 @@
 [package]
+description = "Lightweight and memory-efficient associative data structures."
+license = "Apache-2.0"
 name = "flat_collections"
 version = "0.1.0"
 edition = "2021"
