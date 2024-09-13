@@ -3,7 +3,7 @@ use std::ops::{Bound, RangeBounds};
 /// Memory-efficient immutable map backed by a contiguous flat array.
 /// The implementation is identical to [`FlatMap`], 
 /// except that [`Box<[T]>`] is used instead of [`Vec<T>`] to save memory.
-struct FrozenFlatMap<K: Ord, V> {
+pub struct FrozenFlatMap<K: Ord, V> {
     items: Box<[(K, V)]>,
 }
 
